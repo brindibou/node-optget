@@ -1,6 +1,6 @@
 # optget
 
-JavaScript component to compute the SHA256 of strings or bytes.
+JavaScript component to parse the command-line arguments. 'process.argv' is the argument . An element of argv that starts with '-' (and is not exactly "-" or "--") is an option element.
 
 ## Install
 
