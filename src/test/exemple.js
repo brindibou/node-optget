@@ -354,17 +354,59 @@ const runExemple = (exemple) => {
     console.log('************************************************************************')
 }
 
-// runExemple(exemple1)
-// runExemple(exemple2)
-// runExemple(exemple3)
-// runExemple(exemple4)
-// runExemple(exemple5)
-// runExemple(exemple6)
-// runExemple(exemple7)
-// runExemple(exemple8)
+runExemple(exemple1)
+runExemple(exemple2)
+runExemple(exemple3)
+runExemple(exemple4)
+runExemple(exemple5)
+runExemple(exemple6)
+runExemple(exemple7)
+runExemple(exemple8)
 runExemple(exemple9)
 runExemple(exemple10)
 runExemple(exemple11)
 runExemple(exemple12)
 runExemple(exemple13)
+
+// const display = (exemple, index) => {
+//     console.log('### Exemple ' + index)
+//     console.log('')
+//     console.log('```js')
+//     console.log('')
+//     console.log('const optgetParams =', exemple.optgetParams)
+//     console.log('')
+//     console.log('```')
+//     console.log('')
+//     console.log('Valid Command')
+//     console.log('')
+//     console.log('```')
+//     for (let i = 0; i < exemple.validCommands.length; i++) {
+//         console.log(exemple.validCommands[i])
+//     }
+//     console.log('```')
+//     console.log('')
+//     console.log('Invalid Command')
+//     console.log('')
+//     console.log('```')
+//     for (let i = 0; i < exemple.failCommands.length; i++) {
+//         console.log(exemple.failCommands[i])
+//     }
+//     console.log('```')
+//     console.log('')
+// }
+
+
+// display(exemple1, 1)
+// display(exemple2, 2)
+// display(exemple3, 3)
+// display(exemple4, 4)
+// display(exemple5, 5)
+// display(exemple6, 6)
+// display(exemple7, 7)
+// display(exemple8, 8)
+// display(exemple9, 9)
+// display(exemple10, 10)
+// display(exemple11, 11)
+// display(exemple12, 12)
+// display(exemple13, 13)
 
