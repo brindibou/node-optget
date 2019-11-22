@@ -1,0 +1,12 @@
+{
+  "name": "optget",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/optget.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "b.pkmn",
+  "license": "ISC"
+}
