@@ -6,9 +6,11 @@ JavaScript component to compute the SHA256 of strings or bytes.
 
 ### Node.js
 
-    npm install --save sha256
+    npm install --save optget
 
 ## Usage
+
+### Exemple 1
 
 ```js
 optgetParams = [
@@ -21,6 +23,25 @@ optgetParams = [
 optget(optgetParams, (options) => {
     console.log(options.value)
 })
+```
+
+Valid Command
+
+```
+node test --value=yolo,
+node test --value yolo,
+node test -v=yolo,
+node test -v yolo
+```
+
+Invalid Command
+
+```
+node test --value=yolo yolo,
+node test --value= yolo,
+node test --value=,
+node test --other=yolo,
+node test yolo,
 ```
 
 ## Bug
