@@ -330,7 +330,9 @@ Invalid because name argument is 'err'
 
 ## Bug
 
-## Test
+## Note
+
+If you notice a bug, send me an email to brindibou.pkmn@gmail.com, please
 
 # Credits
 
